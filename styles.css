@@ -1,0 +1,36 @@
+
+body {
+    background: rgba(70, 15, 187, 0.963);
+background: linear-gradient(90deg, rgba(14, 6, 221, 0.95) 33%, rgb(12, 117, 159) 49%, rgba(57, 33, 154, 0.838) 69%);
+    color: rgb(255, 255, 255);
+    font-family: "Bai Jamjuree", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 700px;
+    margin: 0;
+}
+
+button {
+    background-color: #000000;
+    color: rgb(255, 255, 255);
+    font-family: "Bai Jamjuree", sans-serif;
+    font-weight: 400;
+}
+
+.passo {
+    display: none;
+}
+
+.passo.ativo {
+    display:block;
+}
+
+main {
+    text-align: center;
+    max-width: 90%;
+}
+
+img {
+    max-width: 80%;
+}
